@@ -1,0 +1,709 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body
+{
+
+   
+    width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+    
+
+}
+
+@font-face
+{
+   font-family:solaiman;
+
+   src:url(./SolaimanLipi_29-05-06.ttf);
+   src:url(./SolaimanLipi_22-02-2012.ttf);
+   src:url(./SolaimanLipi_Bold_10-03-12.ttf)format('embedded-opentype'),
+   
+}  
+
+
+  h1, h2, h3, h4, h5, h6, p, a {
+   font-family: solaiman ;
+  
+  
+}
+
+h1{
+    font-size: 2.444444rem;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 19px;
+    font-weight: bold;
+}
+h6{
+    font-size: 19px;
+    font-weight: 500;
+    color: #1e4042;
+}
+h2{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.856)
+
+}
+h4
+{
+    font-size: 32px;
+    color: #1e4042;
+}
+p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.63);
+}
+h5
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+p{
+    font-weight: 600;
+    
+}
+.verticleline
+{
+    border-right: 1px solid rgba(0, 0, 0, 0.178);
+   
+    
+}
+
+
+
+
+
+
+    .socialnavbar
+{
+    height: 1.5rem;
+    background-color: black;
+}
+
+.social-icon
+{
+    display: flex;
+    justify-content: center;
+    color: #f1f1ec;
+    
+}
+
+.social-icon a{
+    padding: 0.2rem 0.3rem;
+    font-size: 0.7rem;
+}
+
+.ico-font-black a
+{
+    color: black;
+   font-size: 14px;
+   text-align: center;
+   padding-top: 1rem;
+   letter-spacing: 0.5rem;
+   
+}
+.search_ico 
+{
+    background-color: #070547;
+    color: white;
+    width: 5rem;
+
+}
+
+
+navbar.nav-link
+{
+    padding: 0.2rem 0.3rem !important;
+    font-size: 0.7rem !important;
+}
+
+a{
+    text-decoration: none;
+    color: #f1f1ec;
+}
+
+/*************************************************************************************************************/
+.container
+{
+    
+    
+}
+
+
+/*************************************************************************************************************/
+nav .nav-item .nav-link
+{
+    color: rgba(0, 0, 0, 0.726) !important;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0 3rem;
+
+}
+
+nav
+{
+    
+}
+
+nav .nav-item 
+{
+    padding: 0 0.6rem;
+}
+.navbar-toggler-icon
+{
+  background-color: black;
+}
+
+.search_icon
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1rem;
+    
+    
+}
+
+.trending
+{
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    height: 3rem;
+    align-items: center;
+    margin-top: 20px !important;
+    text-align: center;
+    font-size: 16px;
+    color: rgba(14, 13, 13, 0.692);
+    
+}
+
+.ad
+{
+  background-color: #070547;
+  width: 100%;
+  height: 6rem;
+  text-align: center;
+  
+}
+
+.ad img{
+    width: 40rem;
+    
+}
+.btn-sm
+{
+    margin-left: 80px;
+    font-size: 12px;
+}
+
+.btn-color
+{
+    background-color: #070547;
+    color: #f1f1ec;
+}
+
+/******************************************************************************************************/
+
+.main-header .header
+{
+    text-align: center;
+    line-height: 0.7px;
+}
+.main-header .header h1
+{
+    font-size: 3rem;
+    color:#070547;
+    font-weight: bold;
+}
+.main-header .header p
+{
+    font-size: 12px;
+    color:rgba(0, 0, 0, 0.445);
+    letter-spacing: 2px;
+    
+    
+}
+
+.bottom-nav
+{
+    text-align: center;
+    margin-left: 20rem;
+    
+   
+}
+.bottom-nav .nav-link
+{
+    
+    color: rgba(0, 0, 0, 0.726) !important;
+}
+
+
+/********************************************************/
+
+
+@media(max-width: 1270px)
+{
+    .banner
+    {
+       display: none;
+    }
+
+    .ico-font
+    {
+        display: none;
+    }
+    
+}
+
+
+@media(min-width: 400px)
+{
+    body
+    {
+        overflow-x: hidden;
+        width: 100%;
+        margin: auto;
+        
+       
+    }
+    .img-text
+    {
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .logo
+    {
+        text-align: center;
+        align-items: center;
+        
+        margin-left: 4rem;
+    }
+    .main
+    {
+        padding: 20px 20px;
+    }
+
+    .img-text1
+    {
+        display: flex;
+        padding: 10px 0;
+    }
+    .text3
+    {
+        padding-left: 10px;
+    }
+
+    .cartoon
+    {
+        padding: 20px 20px;
+    }
+
+    .binodon
+    {
+        padding: 20px 20px;
+    }
+
+    .verticleline
+    {
+       
+    }
+    .binodon-second
+    { 
+    
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: solaiman !important ;
+    margin-top: 5rem;
+    }
+    .item
+    {
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .item1, .item2
+  {
+      padding: 5px 5px;
+  }
+  
+   
+}
+
+@media(min-width: 600px)
+{
+    body
+   {
+        max-width: 100%;
+        overflow-x: hidden !important;
+        max-width: 1300px;
+        margin: 0 auto;
+        justify-content: space-between;
+        font-family: solaiman !important ;
+      
+    }
+
+    .logo-topnav
+    {
+        max-width: 100%;
+        overflow-x: hidden !important;
+        max-width: 1300px;
+        margin: 0 auto;
+        justify-content: space-between;
+        font-family: solaiman !important ;
+    }
+
+  /********************************main****************************/
+        .main
+        {
+            display: flex;
+            flex-direction: row;
+            max-width: 1300px;
+            margin: 0 auto;
+            justify-content: space-between;
+            font-family: solaiman !important ;
+            
+            
+        }
+        .top
+        {
+            display: flex;
+            flex-direction: row;
+            max-width: 1300px;
+            margin: 0 auto;
+            justify-content: space-between;
+            font-family: solaiman !important ;
+        }
+        .hero-bottom-1
+        {
+           padding: 0 20px;
+        }
+        .img-text1
+        {
+            padding: 0 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        .text3{
+          padding: 0 15px;
+        }
+
+        .bottom
+        {
+            display: flex;
+            flex-direction: row;
+            max-width: 1300px;
+            margin: 0 auto;
+            justify-content: space-between;
+            font-family: solaiman !important ;
+        }
+
+        .logo
+            {
+                margin-left: 5rem;
+            }
+
+        /***************************************************************************************************/
+        .cartoon
+        {
+            display: flex;
+            flex-direction: row;
+            max-width: 1300px;
+            margin: 0 auto;
+            justify-content: space-between;
+            font-family: solaiman !important ;
+            margin-top: 5rem;
+        }
+
+        .cartoon1
+        {
+            flex-basis: 30%;
+        }
+        .cartoon2
+        {
+            flex-basis: 45%;
+        }
+        .cartoon3
+        {
+            flex-basis: 20%;
+        }
+
+        .third
+        {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .img-text
+        {
+            display: flex;
+            flex-direction: row;
+           
+        }
+
+         .text2 
+        {
+            padding: 0 20px;
+        }
+
+
+    .hero-left
+    {
+        flex-basis: 75%;
+       
+        
+        padding: 20px;
+        
+    }
+
+    .hero-right
+    {
+        flex-basis: 20%;
+
+    }
+    .hero
+    {
+        padding: 0 10px;
+    }
+    
+   .secondrow
+   {
+       display: flex;
+       justify-content: space-between;
+    
+   }
+  cartoon1 .nav-link a
+  {
+      color: black !important;
+  }
+
+  /******########################################################################################***********************/
+
+  .binodon
+  {
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: solaiman !important ;
+    margin-top: 5rem;
+  }
+  .binodon .items
+  {
+     padding: 0 20px;
+  }
+  .binodon1
+  {
+      padding-right: 20px;
+  }
+
+  /***********************************************binodon-second***************************************************************/
+  .binodon-second
+  { 
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: solaiman !important ;
+    margin-top: 5rem;
+  }
+
+  .b1
+  {
+     flex-basis: 47%;
+     flex-wrap: wrap;
+  }
+ 
+  .b2
+  {
+    flex-basis: 20%;
+  }
+  .b3
+  {
+    
+    flex-basis: 40%;
+   
+  }
+
+  
+  .item
+  {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     
+  }
+
+  .item1
+  {
+      padding: 10px 10px;
+  }
+  .item1 .text
+  {
+      padding-top: 10px;
+  }
+
+  /***********************************************binodon-third*********************************************************/
+  .binodon-third
+  {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  .left
+  {
+      flex-basis: 48%;
+  }
+  .right
+  {
+      flex-basis: 48%;
+  }
+
+  .item7
+  {
+      flex-basis: 48%;
+      padding: 0 10px;
+  }
+
+  .right .item{
+    width: 100%;
+  }
+
+  .image-holder-b3 img {
+      height: 55vh
+  };
+
+   /***********************************************agriculture*********************************************************/
+   .ezel-main
+   {
+       max-width: 1300px;
+       margin-top: 50px;
+  
+   }
+   .ezel-top
+   {
+       display: flex;
+       flex-direction: row;
+       
+   }
+   
+   .ezel-left{
+       background-color: #fefefe;
+       display: flex;
+       flex-direction: row; 
+   }
+   .ezel-text-holder
+   {
+       width: 35rem;
+       padding: 0 15px;
+   }
+   
+   .bottom1
+   {
+      display: flex;
+      margin-top: 20px;
+      padding-left: 2.5rem;
+   }
+   .ezel-bottom
+   {
+      display: flex;
+      margin-top: 20px;
+      
+   }
+   .ezel-bottom .article
+   {
+       background-color: #fefefe;
+   }
+   .ezel-bottom .article-title-holder
+   {
+       padding-left: 10px;
+   }
+   .image-holder-b4 
+   {
+       width: 38rem;
+      padding-left: 3.5rem;
+   }
+   .article
+   {
+       padding: 0.5rem 1rem;
+   }
+   .hero-left-4
+   {
+       width: 30rem;
+   }
+   .map
+   {
+       margin-top: 40px;
+   }
+
+   
+        /************************************************SPORTS***************************************************/
+        .sports
+        {
+            display: flex;
+            flex-direction: row;
+            max-width: 1300px;
+            margin: 0 auto;
+            justify-content: space-between;
+            font-family: solaiman !important ;
+            margin-top: 5rem;
+            padding: 0 20px;
+        }
+
+        .left-content
+        {
+            flex-basis: 30%;
+           
+        }
+        .middle-content
+        {
+            flex-basis: 45%;
+           
+        }
+        .right-content
+        {
+            flex-basis: 20%;
+            
+        }
+
+        .left-content, .middle-content, .right-content img
+        {
+            text-align: center;
+        }
+
+        .third
+        {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .img-text
+        {
+            display: flex;
+            flex-direction: row;
+           
+        }
+
+         .text2 
+        {
+            padding: 0 20px;
+        }
+
+       
+
+}
