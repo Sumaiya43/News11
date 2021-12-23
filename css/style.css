@@ -872,8 +872,7 @@ nav .nav-item
   .b1
   {
      flex-basis: 47%;
-     display: flex;
-     flex-wrap: wrap;
+    
     
      
   }
@@ -881,11 +880,13 @@ nav .nav-item
   .b2
   {
     flex-basis: 20%;
+    display: flex;
   }
   .b3
   {
     
     flex-basis: 40%;
+   
    
   }
 
@@ -1401,6 +1402,12 @@ nav .nav-item
      width: 80%;
      margin: 50px 10px;
  }
+ .b3 .item1{
+    width: 50%;
+    padding: 10px 20px;
+}
+
+ 
 
 
 
